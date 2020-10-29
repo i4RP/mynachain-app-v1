@@ -7,7 +7,6 @@ export default function Home() {
   const history = useHistory();
   return (
     <Container>
-      // <h1>Levia</h1>
 
       <List
         subheader={
@@ -19,14 +18,8 @@ export default function Home() {
         <ListItem button onClick={() => history.push("/newaccount")}>
           新しいアカウントを作成
         </ListItem>
-        <ListItem button onClick={() => history.push("/mint")}>
-          残高を発行
-        </ListItem>
         <ListItem button onClick={() => history.push("/Send")}>
           送金
-        </ListItem>
-        <ListItem button onClick={() => history.push("/vote")}>
-          投票
         </ListItem>
       </List>
     </Container>
