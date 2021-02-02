@@ -149,7 +149,7 @@ export default function Vote() {
         placeholder="整数"
         InputProps={{
           endAdornment: (
-            <InputAdornment position="end">マイナコイン</InputAdornment>
+            <InputAdornment position="end">SPC</InputAdornment>
           ),
         }}
         {...amount}

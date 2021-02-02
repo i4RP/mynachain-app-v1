@@ -125,12 +125,12 @@ export default function Mint() {
       />
       <GetAccountId onLoad={(data: string) => from.set(data)} />
       <TextField
-        label="発行数量"
+        label="送金数量"
         fullWidth={true}
         placeholder="整数"
         InputProps={{
           endAdornment: (
-            <InputAdornment position="end">マイナコイン</InputAdornment>
+            <InputAdornment position="end">SPC</InputAdornment>
           ),
         }}
         {...amount}
@@ -142,7 +142,7 @@ export default function Mint() {
         onClick={send}
         disabled={from.error || amount.error}
       >
-        発行
+        送金
       </Button>
     </Container>
   );
