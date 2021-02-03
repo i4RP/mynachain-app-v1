@@ -16,10 +16,10 @@ export default function Home() {
         }
       >
         <ListItem button onClick={() => history.push("/newaccount")}>
-          新しいアカウントを作成
+          新しいアカウントを作成（マイナンバーカードとICチップリーダーが必要です）
         </ListItem>
         <ListItem button onClick={() => history.push("/Send")}>
-          送金
+          SPCトークンを送金する
         </ListItem>
       </List>
     </Container>
