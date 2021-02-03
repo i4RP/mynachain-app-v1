@@ -11,7 +11,8 @@ export default function Home() {
       <List
         subheader={
           <ListSubheader component="div" id="nested-list-subheader">
-            What will you do next?
+            Do you need more information about Space0?
+            <button><Link to='https://space0.org/' onClick={this.doSomething}>Visit our homepage</Link></button>
           </ListSubheader>
         }
       >
