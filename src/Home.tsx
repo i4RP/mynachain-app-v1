@@ -11,7 +11,7 @@ export default function Home() {
       <List
         subheader={
           <ListSubheader component="div" id="nested-list-subheader">
-            Do you need more information about space0? Visit our homepage<a href="https://www.emptyset.finance/">ホーム</a>
+            Do you need more information about space0?<a href="https://www.space0.org/">Visit our homepage</a>
           </ListSubheader>
         }
       >
