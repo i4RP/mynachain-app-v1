@@ -71,7 +71,7 @@ export default function Vote() {
         autoDismiss: true,
       });
       const sig = ((await signWithAuth(
-        "space0 - TX署名",
+        "levia - TX署名",
         "3031300d060960864801650304020105000420" + hash.slice(2)
       )) as any).sig as number[];
       const submittable = api.tx.mynaChainModule.go({

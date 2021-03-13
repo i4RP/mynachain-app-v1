@@ -40,7 +40,7 @@ export default function NewAccount() {
         appearance: "info",
         autoDismiss: true,
       });
-      const _cert = ((await getAuthCert("space0 - 証明書取得")) as any)
+      const _cert = ((await getAuthCert("levia - 証明書取得")) as any)
         .cert as number[];
       if (!_cert || _cert.length == 0) {
         setLoading(false);
@@ -76,7 +76,7 @@ export default function NewAccount() {
         autoDismiss: true,
       });
       const sig = ((await signWithAuth(
-        "space0 - TX署名",
+        "levia - TX署名",
         "3031300d060960864801650304020105000420" + hash.slice(2)
       )) as any).sig as number[];
       const submittable = api.tx.mynaChainModule.go({

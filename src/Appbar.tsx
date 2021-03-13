@@ -56,7 +56,7 @@ export default function Appbar() {
             history.push("/");
           }}
         >
-          space0{" "}
+          levia{" "}
         </Typography>
         <div className={classes.grow} />
 
